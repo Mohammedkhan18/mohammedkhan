@@ -1,0 +1,33 @@
+{
+  "name": "mohammedkhan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+  "mohammedkhan": "index.js" 
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammedkhan18/mohammedkhan.git"
+  },
+  "keywords": [
+    "Mohammed Khan",
+    "Khan",
+    "RVCC",
+    "Raritan Valley Community College"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mohammedkhan18/mohammedkhan/issues"
+  },
+  "homepage": "https://github.com/Mohammedkhan18/mohammedkhan#readme", 
+  "author": {
+    "name": "Mohammed Khan",
+    "email": "g00305549@stu.raritanval.edu",
+    "url": "http://github.com/Mohammedkhan18"
+  }
+}
