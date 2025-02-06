@@ -42,43 +42,59 @@ npm init @eslint/config
 ```
 Follow the interactive prompts to answer configuration questions tailored to your project.
 
-How would you like to use ESLint? To check syntax and find problems
-What type of modules does your project use? None of these
-Which framework does your project use? None of these
-Does your project use TypeScript? No
-Where does your code run? Node
-... Would you like to install them (eslint, globals, @eslint/js) now? Yes
-Which package manager do you want to use? npm
 ESLint finishes resulting in an eslint.config.mjs file.
 
 If needed, you can run this init script again if you need to change any answer.
 
-Configure the Generated File
+### Configure the Generated File
 
 Open the generated eslint.config.mjs file in Visual Studio Code.
+
 Review the default settings and adjust them as necessary to match your project’s coding style and requirements.
-Ensure that the configuration includes all desired rules and plugins relevant to your project. Compare yourd with the eslint.config.mjs in this gist: ESLint Allow ConsoleLinks to an external site. 
-Add a Lint Script to package.json
+
+Ensure that the configuration includes all desired rules and plugins relevant to your project. 
+
+### Add a Lint Script to package.json
 
 Open your package.json file in Visual Studio Code.
+
 Add a script entry that allows you to run ESLint on your code.
+
 Ensure the commas is configured correctly to target the files you wish to lint.
+
+```sh
+
 "scripts": {
     "test": "echo \"error: no test specified\" && exit 1",
     "lint": "eslint index.js"
+
 },
-Run the Linting Process
+
+```
+### Run the Linting Process
 
 Use the integrated terminal to execute the lint script you added.
 
+```sh
+
 npm run lint
+
+```
+
 or use npx
 
+```sh
+
 npx eslint index.js
+
+```
+
 Review the output carefully, noting any issues that ESLint reports.
 
-Fix Reported Issues
+### Fix Reported Issues
 
 Address each linting error or warning by updating your code accordingly.
+
 Continue running the lint command until your code passes all linting checks.
+
 Repeat this as needed when you add more code to this project.
