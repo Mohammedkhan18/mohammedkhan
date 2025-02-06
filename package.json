@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "bin": {
-  "mohammedkhan": "index.js" 
+    "mohammedkhan": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,15 @@
   "bugs": {
     "url": "https://github.com/Mohammedkhan18/mohammedkhan/issues"
   },
-  "homepage": "https://github.com/Mohammedkhan18/mohammedkhan#readme", 
+  "homepage": "https://github.com/Mohammedkhan18/mohammedkhan#readme",
   "author": {
     "name": "Mohammed Khan",
     "email": "g00305549@stu.raritanval.edu",
     "url": "http://github.com/Mohammedkhan18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0"
   }
 }
